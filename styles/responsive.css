@@ -1,6 +1,17 @@
-@media screen and (max-widtyh:400px) {
-    .nab-container{
+@media screen and (max-width:400px){
+    .nav-container{
         flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-items a{
+        margin-top: 25px;
+
+    }
+    #login-btn{
+        width: 100%;
     }
     
 }

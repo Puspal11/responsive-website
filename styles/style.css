@@ -14,8 +14,7 @@
     min-height: 50px;
     display: flex;
     align-items: center;
-
-    max-width: 1400px
+    max-width: 1400px;
 }
 
 .logo-container {
@@ -40,7 +39,8 @@
     text-decoration: none;
     /* padding-right: 10px; */
     color: white;
-    
+    justify-content: space-between;
+
 }
 
 .logo-container img {
@@ -55,17 +55,21 @@
     font-size: 30px;
     /* width: 200px; */
 }
-.login-btn {
-    color: #e893cf;
-    padding: 20px 30px;
+
+#login-btn {
+    background-color: #e893cf;
+    padding: 10px 20px;
     font-weight: 700;
     border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
 .span-1 {
-    color: #e6e9eb;
+    color: black;
 }
 
 .span-2 {
     color: coral;
 }
-
