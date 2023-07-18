@@ -1,0 +1,6 @@
+@media screen and (max-widtyh:400px) {
+    .nab-container{
+        flex-direction: column;
+    }
+    
+}
